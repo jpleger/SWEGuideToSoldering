@@ -33,13 +33,18 @@ You probably also want to get a couple practice pieces to test/validate your tec
 
 The first things you need to know about soldering is that nearly all results are dependent on on heat management.
 
-For example, when using lead free, you should get PCBs with higher Tg (the glass transition temperature where it changes from a solid state to soft/pliable state) to allow more heat before the fiberglass melts or delaminates.
+For example, when using lead free, you might want to get PCBs with higher Tg (the glass transition temperature where it changes from a solid state to soft/pliable state) to allow more heat before the fiberglass melts or delaminates.
 
 <!-- TODO: Photo with good joint/bad joint -->
 
 ### Good Solder Joints
 
+*todo*
 <!-- https://www.protoexpress.com/blog/ipc-j-std-001-standard-soldering-requirements/ -->
+
+### Bad Solder Joints
+
+*todo*
 
 ### Material Selection
 
