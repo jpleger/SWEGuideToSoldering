@@ -57,7 +57,7 @@ Its important to keep your lungs healthy when soldering. A good fume extractor i
 
 Also, don't let stock photos show you proper iron techniques.
 
-![](img/stock_photos.png | width=300)
+![](img/stock_photos.png)
 
 ### Heat Management
 
