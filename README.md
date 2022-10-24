@@ -12,6 +12,7 @@ First, need to get your soldering station up and running. There are a couple imp
 
 1) Soldering iron (and tips)
 1) Fume extractor
+1) Hot air rework station
 1) Flush cut snips
 1) Heat proof mat
 
@@ -31,34 +32,36 @@ You probably also want to get a couple practice pieces to test/validate your tec
 
 ## Soldering Basics
 
-The first things you need to know about soldering is that nearly all results are dependent on on heat management.
+In the context of electronics, soldering is a process where you join 2 pieces of metal, like a wire and a copper trace on a PCB and bond them using a filler material (solder). In electronics, solder is nearly always going to be a tin based, containing lead, silver or copper to reduce the formation of tin whiskers and reduce the melting temperature. Heat is applied via a soldering iron that transmits heat physically or a hot air station that blows hot air over the workpiece.
 
-For example, when using lead free, you might want to get PCBs with higher Tg (the glass transition temperature where it changes from a solid state to soft/pliable state) to allow more heat before the fiberglass melts or delaminates.
+The most important thing you should know about soldering is that nearly all results of soldering are dependent on good heat management. If the process is done correctly, the solder will "wet" between the 2 pieces of metal, creating a physical and electrical bond. When not enough heat is applied to one or both pieces of metal (referred to as a cold solder joint), solder might not create a good bond with the metal. When a poor bond is created, temperature differences, physical movement can all cause the joint to fail entirely or have a poor electrical connection.
+
+Different materials used in electronics have different melting points so it is important for someone picking up this skill to be able to consistently control how much heat goes into a workpiece as well as the amount of time heat is applied. [IPC-J-STD-001H](https://shop.ipc.org/general-electronics/j001-0-h-english) and [IPC-A-610](https://www.ipc.org/ipc-610-acceptability-electronics-assemblies-endorsement-program) help define standards for acceptable soldered connections. 
 
 <!-- TODO: Photo with good joint/bad joint -->
-
-### Good Solder Joints
-
-*todo*
 <!-- https://www.protoexpress.com/blog/ipc-j-std-001-standard-soldering-requirements/ -->
-
-### Bad Solder Joints
-
-*todo*
 
 ### Material Selection
 
-One of the most important decisions you make is what kind of solder/flux you choose to use. Personally, I recommend people who are beginning to solder to start with leaded solder, since it is significantly easier to work with. 60/40 & 63/37 rosin core solder are my go-tos.
+One of the most important decisions you make is what kind of solder/flux you choose to use. PCB material, components and wire insulation materials will also have an impact on soldering techniques, heat times and temperatures.
 
-Leaded solder gives you a much wider range of acceptable results, due to the low melting point of lead. However leaded solder can have harmful health and environmental impact, notably it is *really* bad to eat/ingest it.
+#### Solder
 
-Additionally, [ROHS](https://en.wikipedia.org/wiki/Restriction_of_Hazardous_Substances_Directive) requires electronic products sold in europe be lead-free, whereas in the US there are various laws which restrict the usage of lead in consumer products. Additionally, you never want to mix equipment between leaded and unleaded.
+Personally, I recommend people who are beginning to solder to start with leaded solder, since it is significantly easier to work with. 60/40 & 63/37 rosin core solder are my go-tos. Leaded solder gives you a much wider range of acceptable results due to the low melting point of leaded solder. However leaded solder can have harmful health and environmental impact, notably it is *really* bad to eat/ingest it.
 
-A general rule of thumb, is that if you are developing a product or selling something, you will need to go with lead free solder, if its for personal projects, it can be easier to use leaded.
+Additionally, [ROHS](https://en.wikipedia.org/wiki/Restriction_of_Hazardous_Substances_Directive) requires electronic products sold in europe be lead-free, whereas in the US there are various laws which restrict the usage of lead in consumer products. 
+
+A general rule of thumb, is that if you are developing a product or selling something, you will need to go with lead free solder, if its for personal projects, it can be easier to use leaded. Additionally, you never want to mix equipment between leaded and unleaded, because that will contaminate your lead free soldering equipment.
+
+Solder also comes in different widths, which will be determined by how much solder you need to apply. Small surface mount components can benefit from thinner solder.
+
+#### Wire
 
 ### Ventilation / Safety
 
 Its important to keep your lungs healthy when soldering. A good fume extractor is a must-have and should be used whenever you are soldering, even if you are using lead free solder. Remember, you are melting metal onto fiberglass boards containing epoxies, glass fibers and resins. I'm no scientist, but can definitely say it isn't good to inhale that stuff.
+
+When working with leaded solder, make sure never to eat/drink where you are soldering. Remember to wash your hands after working with leaded solder and try not to use things that you may come in contact with later (for example, a keyboard or mouse). I always recommend wearing gloves when possible, mainly to remind yourself that you have potentially hazardous materials on your hands.
 
 Also, don't let stock photos show you proper iron techniques.
 
@@ -79,6 +82,8 @@ Different styles of tips work well in different conditions. One common mistake p
 You should make it a habit to clean anything that has flux, even no clean flux can attract dust or degrade over time.
 
 ## Soldering Techniques
+
+Generally, you want to 
 
 ### Good Joints
 
